@@ -81,10 +81,11 @@ return
 
 ::declarare::
 (
-int n;
-cin>>n;
-vector_creation(v,n);
-for(int i=0;i<n;i++)
+    int n;
+    cin>>n;
+    int v[n];
+    vector_creation(v,n);
+    for(int i=0;i<n;i++)
 {
 
 }

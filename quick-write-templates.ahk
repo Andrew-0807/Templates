@@ -67,19 +67,17 @@ return
 ::sorting::
 
 (
-void vector_sorting(int n; int a[];)
-{
-for (int w=0;w<n;w++)
-    for(int j= w++;j<n;j++)
-        if(a[w]>a[j])
-            int aux = a[w];
-            a[w]=a[j];
-            a[j]= aux;
-}
+    void vector_sorting(int a[],int n )
+    {
+        for (int x=0;x<n;x++)
+                for(int j= x++;j<n;j++)
+                    if(a[x]>a[j])
+                        swap(a[x],a[j]);
+    }
 )
 return
 
-::declarare::
+::declare::
 (
     int n;
     cin>>n;
